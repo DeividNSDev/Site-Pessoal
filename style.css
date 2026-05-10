@@ -187,10 +187,16 @@ section h2::after {
 .card-projeto {
   background: var(--cor-branco);
   border-radius: var(--border-radius);
-  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 20px;
+
+  position: relative;
+
+  border-left: 5px solid var(--cor-primaria);
+
   box-shadow: 0 2px 10px var(--cor-sombra);
-  margin-bottom: 30px;
-  transition: all 0.3 ease;
+
+  transition: all 0.3s ease;
 }
 
 .card-projeto:hover {
@@ -275,4 +281,24 @@ section h2::after {
   margin-top: 30px;
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+.card-educacao {
+  background: var(--cor-branco);
+  border-radius: var(--border-radius);
+  padding: 25px;
+  margin-bottom: 20px;
+
+  position: relative;
+
+  border-left: 5px solid var(--cor-primaria);
+
+  box-shadow: 0 2px 10px var(--cor-sombra);
+
+  transition: all 0.3s ease;
+}
+
+.card-educacao:hover {
+  transform: translate(-5px);
+  box-shadow: 0 5px 20px var(--cor-sombra);
 }
